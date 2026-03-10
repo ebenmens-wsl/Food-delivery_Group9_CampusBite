@@ -1,12 +1,12 @@
 # Food-delivery_Group9_CampusBite
 
-Simple campus food ordering demo built for Back-End Web Development (Group 9).  
+Simple campus food ordering system built for Back-End Web Development (Group 9).  
 The main app is called **CampusBite**. It lets students:
 
 - See a menu of Ghanaian dishes
 - Register with profile picture
 - Log in
-- Place demo orders
+- Place orders
 - View order history
 
 No real payment and no database. We only use PHP sessions.
@@ -30,21 +30,24 @@ No real payment and no database. We only use PHP sessions.
 
 ---
 
-## 2. Folder Structure (in this repo)
+## 2. Folder Structure 
+
+All files are inside the main folder:
 
 ```text
 Food delivery_Group9_CampusBite/
-├── CampusBite/
-│   ├── index.html
-│   ├── register.php
-│   ├── login.php
-│   ├── dashboard.php
-│   ├── menu.php
-│   ├── logout.php
-│   ├── style.css
-│   ├── uploads/
-│   │   └── profiles/        (profile photos saved here)
-│   └── images/              (food images)
-├── Documentation/           (project report and related files)
-├── Screenshot/              (screenshots of the system)
-└── (optional) zip file of the whole project
+├── index.html           (static home page)
+├── register.php         (user registration)
+├── login.php            (user login)
+├── dashboard.php        (protected dashboard)
+├── menu.php             (food menu)
+├── logout.php           (logout script)
+├── css/
+│   └── style.css        (all styling)
+├── uploads/
+│   └── profiles/        (profile photos)
+├── images/              (food images)
+├── Documentation/       (report and docs)
+└── Screenshots/          (screenshots)---
+
+
